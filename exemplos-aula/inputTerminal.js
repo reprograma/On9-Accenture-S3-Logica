@@ -1,6 +1,5 @@
 const readlineSync = require("readline-sync");
 
-// Para .
 const nome = readlineSync.question("Qual o seu nome? ");
 console.log("Oi " + nome + "!");
 

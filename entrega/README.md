@@ -21,7 +21,7 @@ Lojas Quase Dois - Tabela de preços
 
 ### Extra!!
 
-1. crie uma função que receba um número qualquer devolva o seguinte padrão como resultado (inclusive com os espaços). Por exemplo, caso receba o número 5 como parâmetro:
+1. crie uma função que receba um número qualquer devolva o seguinte padrão como resultado (inclusive com os espaços). Por exemplo, caso receba o número 6 como parâmetro:
 
 ```
 *
