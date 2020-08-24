@@ -1,5 +1,4 @@
-
-"use strict;";
+"use strict";
 
 const readlineSync = require("readline-sync");
 
@@ -15,6 +14,3 @@ inverteTexto();
 e por ter sido tranformado em array pode-se aplicar métodos de array, que 
 nesse caso são o reverse() para inverter o array e join("") para transformar
 o array em string novamente.*/
-
-/* Nada disso foi explicado em aula. Os fundamentos foram passados superficialmente
-e métodos não foram contemplados em nenhum momento. */
