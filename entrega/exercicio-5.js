@@ -5,8 +5,6 @@ caixa precisa apenas contar quantos itens o cliente está levando e olhar na tab
 Você foi contratado para desenvolver o programa que monta esta tabela de preços, 
 que conterá os preços de 1 até 50 produtos */
 
-const readlineSync = require("readline-sync");
-
 function showTable() {
   console.log("Lojas Quase Dois - Tabela de preços");
   for (let index = 1; index <= 50; index++) {
