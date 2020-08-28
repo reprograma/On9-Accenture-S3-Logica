@@ -6,6 +6,21 @@ Faça um algoritmo que leia um número inteiro calcule o seu número de Fibonacc
 
 const readlineSync = require("readline-sync");
 
-const numero = readlineSync.question("Digite um número: ");
+let num = Number(readlineSync.question("Digite um número: "));
 
-const fibonacci = numero + numero 
+function fibonacci(){
+    var termo = parseInt(document.getElementById(num).value);
+    var penultimo=0, ultimo=1;
+    var numero;
+  
+    if(termo<=2)
+     numero = termo-1;
+    else
+     for(var count=3 ; count<=termo ; count++){
+      numero = ultimo + penultimo;
+      penultimo = ultimo;
+      ultimo = numero;
+     }
+  
+    console.log(numero);
+  }
