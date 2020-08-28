@@ -1,10 +1,15 @@
+
 const readlineSync = require("readline-sync");
 let parametro1 = readlineSync.question("digite um primeiro parâmentro: ")
 let parametro2 = readlineSync.question("digite um primeiro parâmentro: ")
 let parametro3 = readlineSync.question("digite um primeiro parâmentro: ")
-function multiplicacao(param1, param2, param3){
-    if(parametro1 ===undefined|| parametro2=== undefined|| parametro3=== undefined){
-        return "preencha todos os valores corretamente"
-    }
-    return(param1*param2*param3)+2;
+let resultado
+function multiplicaNumeros (p1, p2, p3){
+    let resultado = (parametro1 * parametro2 * parametro3) + 2;
+    return resultado
+} 
+if (parametro1 == 0 || parametro2 == 0 || parametro3 == 0){
+    console.log("Preencha todos os valores corretamente!")
+} else {
+    console.log(multiplicaNumeros(resultado))
 }
