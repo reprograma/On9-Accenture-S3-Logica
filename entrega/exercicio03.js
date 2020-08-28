@@ -10,14 +10,25 @@ let numero = readlineSync.question("Digite um numero inteiro: ");
 let nAnterior = 1;
 let nAtual = 1;
 let nNovo;
-console.log("F1 = " + nAnterior + "\nF2 = " + nAtual);
+let nFinal;
+//console.log("F1 = " + nAnterior + "\nF2 = " + nAtual);
 
-for(let i = 1; i <= numero-2; i++){
+
+for(let index = 1; index <= numero-2; index++){
     nNovo = nAnterior + nAtual;
     nAnterior = nAtual;
     nAtual = nNovo;
-    console.log("F" + [i+2] + " = " + nNovo)
+    nFinal = nNovo;
+    //console.log("F" + [index+2] + " = " + nNovo)
     nNovo = 0;
 }
+
+if(numero === "1" || numero === "2"){
+    console.log("F" + numero + " = 1");
+}else{
+    console.log("F" + numero + " = "+ nFinal);
+}
+
+
 
 //node entrega/exercicio03.js

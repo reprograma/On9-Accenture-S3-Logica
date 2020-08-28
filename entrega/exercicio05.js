@@ -17,11 +17,12 @@ Lojas Quase Dois - Tabela de preços
 50 - R$ 99.50
 ``` */
 
-console.log("´´´´´´´´´´´´´´´´");    
+console.log("´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´\nLojas Quase Dois - Tabela de preços\n");
+
 for(let index  = 1; index<= 50; index++){
     let produto = 1.99;
     console.log([index] + " - R$ " + (produto * index).toFixed(2) + "\n");
 }
-console.log("´´´´´´´´´´´´´´´´");  
+console.log("´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´");  
 
 // node entrega/exercicio05.js

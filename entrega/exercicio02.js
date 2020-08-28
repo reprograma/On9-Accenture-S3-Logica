@@ -4,10 +4,14 @@ const readlineSync = require('readline-sync');
 
 let texto = readlineSync.question("Digite um texto: ");
 
-for( let i = texto.length-1 ; i >= 0; i--){
-        console.log(texto[i]);
+let textoEmLinha = "";
+
+for( let index = texto.length-1 ; index >= 0; index--){
+        textoEmLinha += texto[index];
+
 
 } 
+console.log(textoEmLinha);
 
 
 
