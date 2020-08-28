@@ -192,6 +192,30 @@ for (let index = 10; index >= 0; index--) {
   console.log(index);
 }
 ```
+## Extra: aprenda a aprender:
+
+Esta aula foi pesadíssima, eu sei.
+Como sugestão para diversificar seu aprendizado, deixo algumas sugestões:
+
+### For. While e Do While
+#### Free Code Camp (em inglês)
+- Entre na [página do free code camp](https://www.freecodecamp.org/learn)
+- Navegue até a sessão **JavaScript Algorithms and Data Structures Certification (300 hours)**
+- Na sessão **Basic JavaScript**, faça os seguintes exercícios:
+  - Iterate with JavaScript While Loops
+  - Iterate with JavaScript For Loops
+  - Iterate Odd Numbers With a For Loop
+  - Count Backwards With a For Loop
+  - Iterate Through an Array with a For Loop
+  - Nesting For Loops
+  - Iterate with JavaScript Do...While Loops
+
+#### Insegura com o inglês? Seguem alguns vídeos em português:
+- [Comando de loop FOR](https://youtu.be/3DLDoCtje9o)
+- [Comando de loop WHILE](https://youtu.be/ZCjUZk9Xfw4)
+- [Comando de loop DO WHILE](https://youtu.be/9cNRNlhb-EA)
+
+***
 
 ## Funções
 
@@ -546,3 +570,6 @@ Então, nada de `var`! As variáveis `let` e `const` surgiram justamente pra ate
 - Uma geral sobre [escopos](<https://pt.wikipedia.org/wiki/Escopo_(computa%C3%A7%C3%A3o)>) na Wikipedia
 
 ---
+
+
+```js
