@@ -10,7 +10,3 @@ function inverteTexto() {
 
 inverteTexto();
 
-/* O método split("") transforma o texto num array de caracteres únicos 
-e por ter sido tranformado em array pode-se aplicar métodos de array, que 
-nesse caso são o reverse() para inverter o array e join("") para transformar
-o array em string novamente.*/
