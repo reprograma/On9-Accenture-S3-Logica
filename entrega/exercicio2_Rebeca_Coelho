@@ -1,0 +1,15 @@
+// Programa disco da xuxa: receba um texto e imprima este texto invertido na tela.
+
+const readlineSync = require ("readline-sync");
+
+let texto = readlineSync.question ("Digite um texto: " );
+let tamanhoTexto = texto.length
+let contador = (tamanhoTexto-1);
+
+while (contador < tamanhoTexto) {
+    if (contador < 0){
+        break;
+    }
+    console.log (tamanhoTexto [contador] reverse());
+    contador --;
+}

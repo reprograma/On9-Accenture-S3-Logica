@@ -1,0 +1,26 @@
+// crie uma função que receba um número qualquer e devolva o seguinte
+ padrão como resultado (inclusive com os espaços).
+ Por exemplo, caso receba o número 6 como parâmetro: 
+*
+**
+***
+****
+*****
+******
+
+const readlineSync = require ("readline-sync");
+
+let numero = readlineSync.question ("Digite um número qualquer: ");
+let contador = 0;
+ 
+ function piramide () {
+let asterisco = ";
+let espaco = '';
+
+for (let linha = 1; linha <= numero; linha++) {
+    asterisco = asterisco + ' * ';
+    
+    console.log (espaco.repeat (numero-asterisco.length) + asterisco);
+ }
+ }
+ piramide ();

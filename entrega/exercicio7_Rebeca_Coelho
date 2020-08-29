@@ -1,0 +1,25 @@
+// Refaça o exercício 6 acima, porém agora com o seguinte padrão:
+     *
+    **
+   ***
+  ****
+ *****
+
+
+const readlineSync = require ("readline-sync");
+
+let numero = readlineSync.question ("Digite um número qualquer: ");
+let contador = 0;
+ 
+ function piramide () {
+let asterisco = ";
+let espaco = '';
+
+for (let linha = 1; linha <= numero; linha--) {
+    asterisco = asterisco + ' * ';
+    
+    console.log (espaco.repeat (numero-asterisco.length) + asterisco);
+ }
+ }
+ piramide ();
+ 
