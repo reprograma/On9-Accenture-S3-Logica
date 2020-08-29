@@ -1,24 +1,22 @@
 'use strict';
 
 const readlineSync = require('readline-sync');
-const txCresceA = 3 / 100;
-const txCresceB = 1.5 / 100;
 
 let paisA = 80000;
 let paisB = 200000;
+const txCresceA = 3 / 100;
+const txCresceB = 1.5 / 100;
+
 let anos = 0;
 
-let acrescePorAno = paisA * txCresceA;
-let bcrescePorAno = paisB * txCresceB;
-
-while (paisA < paisB) {
+while (paisA <= paisB) {
 	anos++;
-	paisA = paisA + acrescePorAno;
-	paisB = paisB + bcrescePorAno;
+	paisA = paisA + paisA * txCresceA;
+	paisB = paisB + paisB * txCresceB;
 }
 
 console.log(
-	`Após ${anos} ano a população do país A ultrapassou a população do país B `
+	`Após ${anos} anos a população do país A ultrapassou a população do país B `
 );
-console.log(`População do país A será de: ${paisA}.`);
-console.log(`População do país B será de: ${paisB}.`);
+console.log(`População do país A será de: ${paisA.toFixed()}.`);
+console.log(`População do país B será de: ${paisB.toFixed()}.`);
