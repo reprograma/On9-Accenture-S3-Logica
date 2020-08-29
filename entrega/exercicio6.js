@@ -5,7 +5,6 @@ const tamanho = readlineSync.question ("Digite um numero: ")
 
 function ocultar (){
     oculto = ""
-    espaco = " "
     for(let index = tamanho-1; index >=0; index--){
         oculto=oculto+"*" //vai adicionar * ao inves dos números
         console.log(oculto)
