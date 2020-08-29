@@ -3,8 +3,29 @@ const readlineSync = require("readline-sync");
 
 const numero = readlineSync.question("Insira um número:  ");
 let linha = ""
-for (let index = 0; index<=numero-1; index++){
+let i=0
+var espaço = ""
+var tentativa
+
+   
     
-    linha=linha+"*"
-    console.log(linha)
+for (let index = 0; index<=numero-1; index++){
+    for (let j = numero-1; j>=0; j--){
+        
+        while (i<j){
+            i++;
+            espaço=espaço+"e"} 
+            
+        }    
+    linha=linha+"*"    
+    console.log((linha+espaço).split('').reverse().join(''))
 }
+
+    
+    
+    
+
+
+   
+    
+   

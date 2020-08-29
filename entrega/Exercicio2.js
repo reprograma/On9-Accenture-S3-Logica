@@ -14,4 +14,4 @@ for (let index = texto.length-1; index>=0; index--){
     
 }
 
-console.log(textoI)
+console.log("O texto ao contrário é: " +textoI)
